@@ -17,6 +17,20 @@
 		95074E1327CA25940044FA79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074DE927CA25920044FA79 /* ContentView.swift */; };
 		95074E1427CA25940044FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95074DEA27CA25940044FA79 /* Assets.xcassets */; };
 		95074E1527CA25940044FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95074DEA27CA25940044FA79 /* Assets.xcassets */; };
+		95074E2527CA262E0044FA79 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E2427CA262E0044FA79 /* ContactModel.swift */; };
+		95074E2627CA262E0044FA79 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E2427CA262E0044FA79 /* ContactModel.swift */; };
+		95074E2827CA28F60044FA79 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E2727CA28F60044FA79 /* ContactsViewModel.swift */; };
+		95074E2927CA28F60044FA79 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E2727CA28F60044FA79 /* ContactsViewModel.swift */; };
+		95074E3027CA36060044FA79 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E2F27CA36060044FA79 /* ContactDetailView.swift */; };
+		95074E3127CA36060044FA79 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E2F27CA36060044FA79 /* ContactDetailView.swift */; };
+		95074E3327CA5F080044FA79 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E3227CA5F080044FA79 /* MapView.swift */; };
+		95074E3427CA5F080044FA79 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95074E3227CA5F080044FA79 /* MapView.swift */; };
+		95901FFC27CB83CA0083BF00 /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95901FFB27CB83CA0083BF00 /* MapDetailView.swift */; };
+		95901FFD27CB83CA0083BF00 /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95901FFB27CB83CA0083BF00 /* MapDetailView.swift */; };
+		95901FFF27CB930A0083BF00 /* ContactEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95901FFE27CB930A0083BF00 /* ContactEditorView.swift */; };
+		9590200027CB930A0083BF00 /* ContactEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95901FFE27CB930A0083BF00 /* ContactEditorView.swift */; };
+		9590200227CB93CB0083BF00 /* EditContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590200127CB93CB0083BF00 /* EditContactViewModel.swift */; };
+		9590200327CB93CB0083BF00 /* EditContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590200127CB93CB0083BF00 /* EditContactViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,14 @@
 		95074E0827CA25940044FA79 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95074E0C27CA25940044FA79 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		95074E0E27CA25940044FA79 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		95074E2427CA262E0044FA79 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		95074E2727CA28F60044FA79 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		95074E2D27CA2CFB0044FA79 /* iOSEksamen--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOSEksamen--iOS--Info.plist"; sourceTree = "<group>"; };
+		95074E2F27CA36060044FA79 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		95074E3227CA5F080044FA79 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		95901FFB27CB83CA0083BF00 /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
+		95901FFE27CB930A0083BF00 /* ContactEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditorView.swift; sourceTree = "<group>"; };
+		9590200127CB93CB0083BF00 /* EditContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +108,7 @@
 		95074DE227CA25920044FA79 = {
 			isa = PBXGroup;
 			children = (
+				95074E2D27CA2CFB0044FA79 /* iOSEksamen--iOS--Info.plist */,
 				95074DE727CA25920044FA79 /* Shared */,
 				95074DF627CA25940044FA79 /* macOS */,
 				95074DFF27CA25940044FA79 /* Tests iOS */,
@@ -98,7 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				95074DE827CA25920044FA79 /* iOSEksamenApp.swift */,
-				95074DE927CA25920044FA79 /* ContentView.swift */,
+				95074E2B27CA2B240044FA79 /* View */,
+				95074E2C27CA2B2C0044FA79 /* Model */,
+				95074E2A27CA2B190044FA79 /* ViewModel */,
 				95074DEA27CA25940044FA79 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +164,43 @@
 				95074E0E27CA25940044FA79 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		95074E2A27CA2B190044FA79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9590200127CB93CB0083BF00 /* EditContactViewModel.swift */,
+				95074E2727CA28F60044FA79 /* ContactsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		95074E2B27CA2B240044FA79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95074DE927CA25920044FA79 /* ContentView.swift */,
+				95074E2F27CA36060044FA79 /* ContactDetailView.swift */,
+				95901FFE27CB930A0083BF00 /* ContactEditorView.swift */,
+				95901FFA27CB83B80083BF00 /* Maps */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95074E2C27CA2B2C0044FA79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95074E2427CA262E0044FA79 /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95901FFA27CB83B80083BF00 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				95074E3227CA5F080044FA79 /* MapView.swift */,
+				95901FFB27CB83CA0083BF00 /* MapDetailView.swift */,
+			);
+			path = Maps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +362,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				95074E1227CA25940044FA79 /* ContentView.swift in Sources */,
+				95901FFF27CB930A0083BF00 /* ContactEditorView.swift in Sources */,
+				9590200227CB93CB0083BF00 /* EditContactViewModel.swift in Sources */,
+				95074E3327CA5F080044FA79 /* MapView.swift in Sources */,
+				95074E2827CA28F60044FA79 /* ContactsViewModel.swift in Sources */,
 				95074E1027CA25940044FA79 /* iOSEksamenApp.swift in Sources */,
+				95074E2527CA262E0044FA79 /* ContactModel.swift in Sources */,
+				95901FFC27CB83CA0083BF00 /* MapDetailView.swift in Sources */,
+				95074E3027CA36060044FA79 /* ContactDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +378,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				95074E1327CA25940044FA79 /* ContentView.swift in Sources */,
+				9590200027CB930A0083BF00 /* ContactEditorView.swift in Sources */,
+				9590200327CB93CB0083BF00 /* EditContactViewModel.swift in Sources */,
+				95074E3427CA5F080044FA79 /* MapView.swift in Sources */,
+				95074E2927CA28F60044FA79 /* ContactsViewModel.swift in Sources */,
 				95074E1127CA25940044FA79 /* iOSEksamenApp.swift in Sources */,
+				95074E2627CA262E0044FA79 /* ContactModel.swift in Sources */,
+				95901FFD27CB83CA0083BF00 /* MapDetailView.swift in Sources */,
+				95074E3127CA36060044FA79 /* ContactDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +544,7 @@
 				DEVELOPMENT_TEAM = 23JFSYA236;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOSEksamen--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +575,7 @@
 				DEVELOPMENT_TEAM = 23JFSYA236;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOSEksamen--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
